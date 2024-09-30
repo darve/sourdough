@@ -1,0 +1,46 @@
+{
+  "name": "golden-retriever",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "area-polygon": "^1.0.1",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "canvas-sketch-util": "^1.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "gfycat-style-urls": "^1.0.3",
+    "line-intersect": "^3.0.0",
+    "line-intersection": "^1.0.9",
+    "opentype": "^0.1.2",
+    "opentype.js": "^1.3.4",
+    "p5": "^1.4.1",
+    "point-in-polygon": "^1.1.0",
+    "polybooljs": "^1.2.0",
+    "polygon": "^1.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-use": "^17.3.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.49.9",
+    "shapetypes": "^1.2.2",
+    "svg-parser": "^2.0.4",
+    "svg-path-properties": "^1.0.11",
+    "webmidi": "^3.0.20"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.8",
+    "tailwindcss": "^3.0.23",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
